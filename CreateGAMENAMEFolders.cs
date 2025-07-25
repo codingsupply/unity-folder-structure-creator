@@ -157,7 +157,7 @@ public class CreateGAMENAMEFolders
                 Directory.CreateDirectory(folder);
                 // Optional: Readme for Orientierung
                 string readme = folder + "/_README.md";
-                File.WriteAllText(readme, $"# {folder.Replace("Assets/GAMENAME/", "")}\n\nBeschreibung und Team-Notizen für diesen Ordner.");
+                File.WriteAllText(readme, $"# {folder.Replace("Assets/GAMENAME/", "")}\n\nDescription");
             }
         }
 
